@@ -60,7 +60,7 @@ public class Converter {
 
 }
 
-    private String cyrToLat(String message) {
+    private String cyrToLat(String message)  {
 
         if (exceptionWords.containsValue(message)) {
             AtomicReference<String> convertedWord = new AtomicReference<>("");
