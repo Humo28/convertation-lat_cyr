@@ -18,10 +18,6 @@ public class Converter {
     String[] abcLat = {"a", "b", "v", "g", "h", "d", "ye", "yo", "j", "z", "i", "y", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "f", "x", "ts", "ch", "sh", "'", "e", "yu", "ya", "o'", "g'", "q", "A", "B", "V", "G", "H", "D", "Ye", "Yo", "J", "Z", "I", "Y", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "F", "X", "Ts", "Ch", "Sh", "'", "E", "Yu", "Ya", "G'", "O'", "Q"};
 
     public String convert(String message, int convertType) {
-        if (Collections.singletonList(abcCyr).contains(message.chars())){
-
-        }
-//        if ()
         message = message.trim();
         if (convertType == 0) {
             return cyrToLat(message);
